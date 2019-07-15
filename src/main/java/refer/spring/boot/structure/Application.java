@@ -1,4 +1,4 @@
-package refer.spring.boot.domain;
+package refer.spring.boot.structure;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

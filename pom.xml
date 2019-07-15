@@ -11,9 +11,9 @@
 	</parent>
 
 	<groupId>refer.spring.boot</groupId>
-	<artifactId>domain</artifactId>
+	<artifactId>structure</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>domain</name>
+	<name>structure</name>
 
 	<properties>
 		<java.version>1.8</java.version>

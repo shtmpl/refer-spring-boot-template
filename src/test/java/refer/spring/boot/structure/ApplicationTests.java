@@ -1,4 +1,4 @@
-package refer.spring.boot.domain;
+package refer.spring.boot.structure;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
