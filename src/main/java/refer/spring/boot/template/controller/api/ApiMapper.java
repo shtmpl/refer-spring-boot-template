@@ -4,7 +4,7 @@ import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
 @Mapper
-public interface DefaultMapper {
+public interface ApiMapper {
 
-    DefaultMapper INSTANCE = Mappers.getMapper(DefaultMapper.class);
+    ApiMapper INSTANCE = Mappers.getMapper(ApiMapper.class);
 }
