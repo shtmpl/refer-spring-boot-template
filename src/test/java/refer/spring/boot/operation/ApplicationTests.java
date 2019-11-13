@@ -1,4 +1,4 @@
-package refer.spring.boot.structure;
+package refer.spring.boot.operation;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -8,5 +8,5 @@
         <dbms type="postgresql"/>
     </preConditions>
 
-    <include file="file/00000000.sql" relativeToChangelogFile="true"/>
+    <include file="sql/00000000.sql" relativeToChangelogFile="true"/>
 </databaseChangeLog>
