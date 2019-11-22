@@ -1,6 +1,6 @@
 package refer.spring.boot.template.domain;
 
-public class RuntimeConfigurationNotFoundException extends RuntimeException {
+public class RuntimeConfigurationNotFoundException extends ResourceNotFoundException {
 
     public RuntimeConfigurationNotFoundException() {
         super();

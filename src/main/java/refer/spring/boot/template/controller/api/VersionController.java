@@ -27,7 +27,7 @@ public class VersionController {
     }
 
     @GetMapping("")
-    public ResponseEntity<ResponseVersion> show() {
+    public ResponseVersion show() {
         String applicationName = runtimeConfigurationService.findRuntimeConfiguration(RuntimeConfigurations.PARAM_APPLICATION_NAME)
                 .map(RuntimeConfiguration::getStringValue)
                 .orElseThrow(() ->
@@ -37,6 +37,6 @@ public class VersionController {
         result.setApplicationName(applicationName);
         result.setApplicationVersion(gitCommitId);
 
-        return ResponseEntity.ok(result);
+        return result;
     }
 }
