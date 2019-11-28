@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import java.time.OffsetDateTime;
 
 @Entity
-public class RuntimeConfiguration {
+public class RuntimeConfiguration extends AbstractPersistable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,6 +21,7 @@ public class RuntimeConfiguration {
 
     private String description;
 
+    @Override
     public Long getId() {
         return id;
     }
