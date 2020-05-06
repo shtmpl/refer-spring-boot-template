@@ -1,4 +1,6 @@
-package refer.spring.boot.template.domain;
+package refer.spring.boot.template.domain.system;
+
+import refer.spring.boot.template.domain.AbstractPersistable;
 
 import javax.persistence.Entity;
 import javax.persistence.EnumType;

@@ -1,6 +1,6 @@
-package refer.spring.boot.template.service;
+package refer.spring.boot.template.service.system;
 
-import refer.spring.boot.template.domain.RuntimeConfiguration;
+import refer.spring.boot.template.domain.system.RuntimeConfiguration;
 
 import java.util.Optional;
 

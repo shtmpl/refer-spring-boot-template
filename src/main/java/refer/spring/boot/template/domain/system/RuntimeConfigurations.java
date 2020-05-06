@@ -1,4 +1,4 @@
-package refer.spring.boot.template.domain;
+package refer.spring.boot.template.domain.system;
 
 public final class RuntimeConfigurations {
 

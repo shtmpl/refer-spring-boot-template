@@ -1,4 +1,6 @@
-package refer.spring.boot.template.domain;
+package refer.spring.boot.template.domain.system;
+
+import refer.spring.boot.template.domain.ResourceNotFoundException;
 
 public class RuntimeConfigurationNotFoundException extends ResourceNotFoundException {
 

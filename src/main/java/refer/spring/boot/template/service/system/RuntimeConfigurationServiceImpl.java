@@ -1,10 +1,10 @@
-package refer.spring.boot.template.service;
+package refer.spring.boot.template.service.system;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import refer.spring.boot.template.domain.RuntimeConfiguration;
-import refer.spring.boot.template.repository.RuntimeConfigurationRepository;
+import refer.spring.boot.template.domain.system.RuntimeConfiguration;
+import refer.spring.boot.template.repository.system.RuntimeConfigurationRepository;
 
 import java.util.Optional;
 

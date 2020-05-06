@@ -1,10 +1,7 @@
 package refer.spring.boot.template.controller.api;
 
 import org.mapstruct.Mapper;
-import org.mapstruct.factory.Mappers;
 
-@Mapper
+@Mapper(componentModel = "spring")
 public interface ApiMapper {
-
-    ApiMapper INSTANCE = Mappers.getMapper(ApiMapper.class);
 }

@@ -2,15 +2,14 @@ package refer.spring.boot.template.controller.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import refer.spring.boot.template.controller.api.response.ResponseVersion;
-import refer.spring.boot.template.domain.RuntimeConfiguration;
-import refer.spring.boot.template.domain.RuntimeConfigurationNotFoundException;
-import refer.spring.boot.template.domain.RuntimeConfigurations;
-import refer.spring.boot.template.service.RuntimeConfigurationService;
+import refer.spring.boot.template.domain.system.RuntimeConfiguration;
+import refer.spring.boot.template.domain.system.RuntimeConfigurationNotFoundException;
+import refer.spring.boot.template.domain.system.RuntimeConfigurations;
+import refer.spring.boot.template.service.system.RuntimeConfigurationService;
 
 @RequestMapping("/api/version")
 @RestController
